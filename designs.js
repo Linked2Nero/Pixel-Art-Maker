@@ -22,8 +22,8 @@ function makeGrid(height, width) {
 }
 /**
  * @desc take the input from the user to decide how wide and the height of grid
- * gives user choice in color for drawing
- * also has it set up for the erase para
+ * @param gives user choice in color for drawing
+ * @param also has it set up for the erase para
  */
 $(function () {
     var height, width;
