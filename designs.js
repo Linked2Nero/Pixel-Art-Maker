@@ -1,7 +1,11 @@
 // Select color input
 // Select size input
 
-// When size is submitted by the user, call makeGrid()
+/**
+ * @desc create a grid of squares
+ * @param int $width - number of squares representing the width of the grid
+ * @param int $height - number of squares representing the height of the grid
+ */
 
 function makeGrid(height, width) {
 
@@ -16,7 +20,11 @@ function makeGrid(height, width) {
     }
     $("#pixel_canvas").html(html);
 }
-
+/**
+ * @desc take the input from the user to decide how wide and the height of grid
+ * gives user choice in color for drawing
+ * also has it set up for the erase para
+ */
 $(function () {
     var height, width;
     $("#sizePicker").on('submit', function (event) {
